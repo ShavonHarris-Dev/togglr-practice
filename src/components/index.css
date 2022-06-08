@@ -1,0 +1,38 @@
+:root{
+  --background: #fff;
+  --border:#333;
+  --table-bg: #fff;
+}
+
+[data-theme="dark"]{
+  --background: #000;
+  --border:#808080;
+  --table-bg: #191919;
+}
+
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: var(--background);
+  transition: all .5s;
+}
+
+
+.table {
+  background-color: var(--table-bg);
+  border: var(--border);
+  cursor:pointer;
+  box-shadow: 0px 0px 12px var(--border);
+}
+
+.app {
+  padding:20px;
+}
+
+
+
+
+
+
+
+
